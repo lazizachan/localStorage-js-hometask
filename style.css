@@ -1,0 +1,94 @@
+/* task1 */
+/* * {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 1200px;
+  height: 100px;
+  padding-left: 5px;
+}
+.headMenu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headMenu .harbor a {
+  text-decoration: none;
+  font-size: 50px;
+  color: aqua;
+  font-weight: 700;
+}
+.headMenu .other a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+.nightMode {
+  width: 60px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.darkMode {
+  background-color: #333;
+}
+.darkMode .other a {
+  color: #fff;
+}
+.darkMode .harbor a {
+  color: #fff;
+} */
+
+/* task2 */
+input,
+label {
+  width: 200px;
+  height: 20px;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 10px;
+}
+input[type="radio"] {
+  display: inline-block;
+  margin-bottom: 0;
+  width: auto;
+  height: auto;
+}
+label[for="male"],
+label[for="female"] {
+  display: inline-block;
+  margin-bottom: 0;
+  width: auto;
+  height: auto;
+}
+label[for="male"] {
+  color: blue;
+  font-weight: 700;
+}
+label[for="female"] {
+  color: pink;
+  font-weight: 700;
+}
+input::placeholder {
+  color: rgba(85, 164, 71, 0.94);
+}
+p {
+  color: blueviolet;
+}
+button {
+  width: 70px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: orange;
+  display: block;
+}
